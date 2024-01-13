@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  payment-tracker-mongodb:
+    image: 'bitnami/mongodb:5.0'
+    container_name: payment-tracker-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+       - demo-vol:/bitnami/mongodb
+    environment:
+      - MONGODB_ROOT_PASSWORD=Root@123
+      - MONGODB_USERNAME=tribune
+      - MONGODB_PASSWORD=Tribune@123
+      - MONGODB_DATABASE=payments
+      - MONGODB_ENABLE_DIRECTORY_PER_DB=yes
+      - MONGODB_SYSTEM_LOG_VERBOSITY=1
+
+volumes:
+  demo-vol:
+    driver: local

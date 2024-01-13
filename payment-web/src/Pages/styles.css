@@ -1,0 +1,61 @@
+.main {
+    width: 250px;
+    box-shadow: 0 0 2px black;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.main h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.contain input {
+    width: 200px;
+}
+.contain p {
+    width: 200px;
+    margin: 10px 0;
+}
+.contain {
+    margin: 20px 10px 10px;
+}
+.valBtn {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(54, 57, 230);
+}
+.Confirmation {
+    width: 250px;
+    box-shadow: 0 0 2px black;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.Confirmation h3 {
+    text-align: center;
+}
+
+.mainLoad {
+    width: 250px;
+    box-shadow: 0 0 2px black;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.checkIcon {
+    font-size: 4rem;
+}

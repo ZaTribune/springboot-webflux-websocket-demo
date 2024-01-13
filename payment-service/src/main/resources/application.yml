@@ -1,0 +1,10 @@
+
+server:
+  port: 8888
+
+spring:
+  data:
+    mongodb:
+      database: payments
+      username: tribune
+      password: Tribune@123
